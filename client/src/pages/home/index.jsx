@@ -244,6 +244,98 @@ function Home() {
           </div>
         </div>
 
+        <div className={styled.home__container__register}>
+          <div className={styled.home__container__register__container}>
+            <div className={styled.home__container__register__container__body}>
+              <div
+                className={
+                  styled.home__container__register__container__body__left
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__register__container__body__left__content
+                  }
+                >
+                  <div
+                    className={
+                      styled.home__container__register__container__body__left__content__div
+                    }
+                  >
+                    <h1>
+                      Register now and get a discount
+                      <br />
+                      <span>50%</span>
+                      discount until 1 January
+                    </h1>
+                    <p>
+                      In aliquam, augue a gravida rutrum, ante nisl fermentum
+                      nulla, vitae tempor nisl ligula vel nunc. Proin quis mi
+                      malesuada, finibus tortor fermentum. Aliquam, augue a
+                      gravida rutrum, ante nisl fermentum nulla, vitae tempo.
+                    </p>
+                    <div
+                      className={
+                        styled.home__container__register__container__body__left__content__div__btn
+                      }
+                    >
+                      <a href="#12">register now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  styled.home__container__register__container__body__right
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__register__container__body__right__content
+                  }
+                >
+                  <div
+                    className={
+                      styled.home__container__register__container__body__right__content__back
+                    }
+                  ></div>
+                  <div
+                    className={
+                      styled.home__container__register__container__body__right__content__search
+                    }
+                  >
+                    <h1>Search for your course</h1>
+                    <form>
+                      <input
+                        id="search_form_name"
+                        type=""
+                        name=""
+                        value=""
+                        placeholder="Course Name"
+                      />
+                      <input
+                        id="search_form_category"
+                        type=""
+                        name=""
+                        value=""
+                        placeholder="Category"
+                      />
+                      <input
+                        id="search_form_degree"
+                        type=""
+                        name=""
+                        value=""
+                        placeholder="Degree"
+                      />
+                      <button type="sumbit">search course</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className={styled.home__container__events}>
           <div className={styled.home__container__events__container}>
             <div className={styled.home__container__events__container__up}>
