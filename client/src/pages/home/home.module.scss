@@ -1,0 +1,185 @@
+.home {
+    &__container {
+
+        &__events {
+            padding-top: 117px;
+            padding-bottom: 117px;
+
+            &__container {
+                max-width: 1140px;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+
+                &__up {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-right: -15px;
+                    margin-left: -15px;
+
+                    div {
+                        flex-grow: 1;
+                        flex-basis: 0;
+                        max-width: 100%;
+                        position: relative;
+                        width: 100%;
+                        min-height: 1px;
+                        padding-right: 15px;
+                        padding-left: 15px;
+
+                        div {
+                            text-align: center !important;
+
+                            h1 {
+                                display: block;
+                                color: #1a1a1a;
+                                font-weight: 500;
+                                padding-top: 24px;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 36px;
+                                margin-bottom: 0.5rem;
+                                line-height: 1.2;
+                                margin-top: 0;
+
+                                &::before {
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    width: 55px;
+                                    height: 4px;
+                                    content: '';
+                                    background: #ffb606;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                &__down {
+                    margin-top: 68px;
+
+                    &__row {
+                        margin-bottom: 56px;
+
+                        &__col {
+                            flex-grow: 1;
+                            max-width: 100%;
+                            flex-basis: 0;
+                            position: relative;
+                            width: 100%;
+                            min-height: 1px;
+                            padding-right: 15px;
+                            padding-left: 15px;
+
+                            &__body {
+                                align-items: flex-end !important;
+                                flex-direction: row !important;
+                                display: flex !important;
+                                flex-wrap: wrap;
+                                margin-right: -15px;
+                                margin-left: -15px;
+
+                                &__left {
+                                    flex: 0 0 16.666667%;
+                                    max-width: 16.666667%;
+                                    position: relative;
+                                    width: 100%;
+                                    min-height: 1px;
+                                    padding-right: 15px;
+                                    padding-left: 15px;
+
+                                    .home__container__events__container__down__row__col__body__left__div {
+                                        width: 131px;
+                                        height: 131px;
+                                        border: solid 2px #ffb606;
+                                        margin-bottom: 18px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+
+                                        .home__container__events__container__down__row__col__body__left__text1 {
+                                            font-size: 48px;
+                                            font-weight: 700;
+                                            color: #ffb606;
+                                            margin-bottom: 1px;
+                                            line-height: 1;
+                                        }
+
+                                        .home__container__events__container__down__row__col__body__left__text2 {
+                                            font-size: 16px;
+                                            font-weight: 700;
+                                            color: #ffb606;
+                                        }
+                                    }
+                                }
+
+                                &__middle {
+                                    flex: 0 0 50%;
+                                    max-width: 50%;
+
+                                    div {
+                                        position: relative;
+                                        width: 100%;
+                                        min-height: 1px;
+                                        padding-right: 15px;
+                                        padding-left: 15px;
+
+                                        .home__container__events__container__down__row__col__body__middle__text1 {
+                                            a {
+                                                font-size: 22px;
+                                                font-weight: 500;
+                                                color: #1a1a1a;
+                                                text-decoration: none;
+                                            }
+                                        }
+
+                                        .home__container__events__container__down__row__col__body__middle__text2 {
+                                            font-size: 14px;
+                                            font-weight: 500;
+                                            color: #1a1a1a;
+                                            margin-top: 2px;
+                                        }
+
+                                        p {
+                                            font-family: 'Roboto', sans-serif;
+                                            font-size: 14px;
+                                            line-height: 2.29;
+                                            font-weight: 500;
+                                            color: #a5a5a5;
+                                            margin-top: 21px;
+                                            margin-bottom: 13px;
+                                        }
+                                    }
+                                }
+
+                                &__right {
+                                    flex: 0 0 33.333333%;
+                                    max-width: 33.333333%;
+                                    position: relative;
+                                    width: 100%;
+                                    min-height: 1px;
+                                    padding-right: 15px;
+                                    padding-left: 15px;
+
+                                    div {
+                                        img {
+                                            width: 100%;
+                                            vertical-align: middle;
+                                            border-style: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
