@@ -1,16 +1,9 @@
-import { Fragment } from "react";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
-import Home from "./pages/home";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { ROUTES } from "./routers/router";
+const router = createBrowserRouter(ROUTES);
 
 function App() {
-  return (
-    <Fragment>
-      <Navbar />
-      <Home />
-      <Footer />
-    </Fragment>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

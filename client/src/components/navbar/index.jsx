@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "./navbar.module.scss";
 
 function Navbar() {
@@ -18,7 +19,7 @@ function Navbar() {
           <div className={styled.navbar__left__links__nav}>
             <ul>
               <li>
-                <a href="#1">home</a>
+                <Link to="home">Home</Link>
               </li>
               <li>
                 <a href="#2">about us</a>
