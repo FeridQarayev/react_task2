@@ -9,15 +9,24 @@ function Home() {
         <div className={styled.home__container__carousel}>
           <Carousel>
             <div>
-              <img src="https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp" />
+              <img
+                src="https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp"
+                alt="fdfdf"
+              />
               <p className="legend">Legend 1</p>
             </div>
             <div>
-              <img src="https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp" />
+              <img
+                src="https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp"
+                alt="fdfdf"
+              />
               <p className="legend">Get your Education today!</p>
             </div>
             <div>
-              <img src="https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp" />
+              <img
+                src="https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp"
+                alt="fdfdf"
+              />
               <p className="legend">Legend 3</p>
             </div>
           </Carousel>
