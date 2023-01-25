@@ -1,6 +1,182 @@
 .home {
     &__container {
 
+        &__courses {
+            padding-top: 117px;
+            padding-bottom: 117px;
+
+            &__container {
+                max-width: 1140px;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+
+                &__up {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-right: -15px;
+                    margin-left: -15px;
+
+                    &__col {
+                        flex-grow: 1;
+                        max-width: 100%;
+                        flex-basis: 0;
+
+                        &__text {
+                            text-align: center !important;
+
+                            h1 {
+                                display: block;
+                                color: #1a1a1a;
+                                font-weight: 500;
+                                padding-top: 24px;
+                                font-size: 36px;
+                                margin-bottom: 0.5rem;
+                                line-height: 1.2;
+                                margin-top: 0;
+                                position: relative;
+
+                                &::before {
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    width: 55px;
+                                    height: 4px;
+                                    content: '';
+                                    background: #ffb606;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                &__down {
+                    margin-top: 68px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-right: -15px;
+                    margin-left: -15px;
+
+                    &__box {
+                        flex: 0 0 33.333333%;
+                        max-width: 33.333333%;
+                        position: relative;
+                        width: 100%;
+                        min-height: 1px;
+                        padding-right: 15px;
+                        padding-left: 15px;
+
+                        &__card {
+                            display: block;
+                            background: #f8f9fb;
+                            border: none;
+                            min-width: 0;
+                            word-wrap: break-word;
+                            border-radius: 0.25rem;
+
+                            img {
+                                border-top-left-radius: 0px;
+                                border-top-right-radius: 0px;
+                                width: 100%;
+                                vertical-align: middle;
+                                border-style: none;
+                            }
+
+                            &__text {
+                                padding-top: 0px;
+                                padding-bottom: 0px;
+                                padding-left: 15px;
+                                padding-right: 15px;
+                                text-align: center;
+
+                                &__title {
+                                    margin-top: 55px;
+                                    margin-bottom: 0.75rem;
+
+                                    a {
+                                        font-size: 22px;
+                                        font-weight: 500;
+                                        color: #1a1a1a;
+                                        line-height: 1.2;
+                                        text-decoration: none;
+                                    }
+                                }
+
+                                &__subtitle {
+                                    margin-bottom: 0;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: #a5a5a5;
+                                    margin-top: -12px;
+                                }
+                            }
+
+                            &__down {
+                                width: 100%;
+                                height: 67px;
+                                background: #eaebec;
+                                margin-top: 41px;
+                                padding-left: 35px;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+
+                                &__lef {
+                                    width: 46px;
+                                    height: 46px;
+                                    border-radius: 50%;
+
+                                    img {
+                                        overflow: hidden;
+                                    }
+                                }
+
+
+                                &__middle {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: #1a1a1a;
+                                    padding-left: 20px;
+                                    margin-top: 7px;
+
+                                    span {
+                                        color: #a5a5a5;
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                    }
+                                }
+
+                                &__right {
+                                    width: 67px;
+                                    height: 67px;
+                                    background: #ffb606;
+                                    margin-left: auto;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-direction: column;
+
+                                    span {
+                                        color: #FFFFFF;
+                                        font-size: 18px;
+                                        font-weight: 500;
+                                        margin-top: 7px;
+                                    }
+                                }
+
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         &__events {
             padding-top: 117px;
             padding-bottom: 117px;
