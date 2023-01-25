@@ -337,59 +337,157 @@ function Home() {
         </div>
 
         <div className={styled.home__container__services}>
-            <div className={styled.home__container__services__container}>
-                <div className={styled.home__container__services__container__up}>
-                <div className={styled.home__container__services__container__up__body}>
-                    <div className={styled.home__container__services__container__up__body__text}>
-                        <h1>Our Services</h1>
-                    </div>
+          <div className={styled.home__container__services__container}>
+            <div className={styled.home__container__services__container__up}>
+              <div
+                className={
+                  styled.home__container__services__container__up__body
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__services__container__up__body__text
+                  }
+                >
+                  <h1>Our Services</h1>
                 </div>
-                </div>
-                <div className={styled.home__container__services__container__down}>
-                <div className={styled.home__container__services__container__down__item}>
-                    <div className={styled.home__container__services__container__down__item__img}>
-                        <img src="https://preview.colorlib.com/theme/course/images/earth-globe.svg" alt="globus" />
-                    </div>
-                    <h3>Online Courses</h3>
-                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                </div>
-                <div className={styled.home__container__services__container__down__item}>
-                    <div className={styled.home__container__services__container__down__item__img}>
-                        <img src="https://preview.colorlib.com/theme/course/images/exam.svg" alt="globus" />
-                    </div>
-                    <h3>Indoor Courses</h3>
-                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                </div>
-                <div className={styled.home__container__services__container__down__item}>
-                    <div className={styled.home__container__services__container__down__item__img}>
-                        <img src="https://preview.colorlib.com/theme/course/images/books.svg" alt="globus" />
-                    </div>
-                    <h3>Amazing Library</h3>
-                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                </div>
-                <div className={styled.home__container__services__container__down__item}>
-                    <div className={styled.home__container__services__container__down__item__img}>
-                        <img src="https://preview.colorlib.com/theme/course/images/professor.svg" alt="globus" />
-                    </div>
-                    <h3>Exceptional Professors</h3>
-                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                </div>
-                <div className={styled.home__container__services__container__down__item}>
-                    <div className={styled.home__container__services__container__down__item__img}>
-                        <img src="https://preview.colorlib.com/theme/course/images/blackboard.svg" alt="globus" />
-                    </div>
-                    <h3>Top Programs</h3>
-                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                </div>
-                <div className={styled.home__container__services__container__down__item}>
-                    <div className={styled.home__container__services__container__down__item__img}>
-                        <img src="https://preview.colorlib.com/theme/course/images/mortarboard.svg" alt="globus" />
-                    </div>
-                    <h3>Graduate Diploma</h3>
-                    <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
-                </div>
-                </div>
+              </div>
             </div>
+            <div className={styled.home__container__services__container__down}>
+              <div
+                className={
+                  styled.home__container__services__container__down__item
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__services__container__down__item__img
+                  }
+                >
+                  <img
+                    src="https://preview.colorlib.com/theme/course/images/earth-globe.svg"
+                    alt="globus"
+                  />
+                </div>
+                <h3>Online Courses</h3>
+                <p>
+                  In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
+                  vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
+                  finibus tortor fermentum.
+                </p>
+              </div>
+              <div
+                className={
+                  styled.home__container__services__container__down__item
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__services__container__down__item__img
+                  }
+                >
+                  <img
+                    src="https://preview.colorlib.com/theme/course/images/exam.svg"
+                    alt="globus"
+                  />
+                </div>
+                <h3>Indoor Courses</h3>
+                <p>
+                  In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
+                  vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
+                  finibus tortor fermentum.
+                </p>
+              </div>
+              <div
+                className={
+                  styled.home__container__services__container__down__item
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__services__container__down__item__img
+                  }
+                >
+                  <img
+                    src="https://preview.colorlib.com/theme/course/images/books.svg"
+                    alt="globus"
+                  />
+                </div>
+                <h3>Amazing Library</h3>
+                <p>
+                  In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
+                  vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
+                  finibus tortor fermentum.
+                </p>
+              </div>
+              <div
+                className={
+                  styled.home__container__services__container__down__item
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__services__container__down__item__img
+                  }
+                >
+                  <img
+                    src="https://preview.colorlib.com/theme/course/images/professor.svg"
+                    alt="globus"
+                  />
+                </div>
+                <h3>Exceptional Professors</h3>
+                <p>
+                  In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
+                  vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
+                  finibus tortor fermentum.
+                </p>
+              </div>
+              <div
+                className={
+                  styled.home__container__services__container__down__item
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__services__container__down__item__img
+                  }
+                >
+                  <img
+                    src="https://preview.colorlib.com/theme/course/images/blackboard.svg"
+                    alt="globus"
+                  />
+                </div>
+                <h3>Top Programs</h3>
+                <p>
+                  In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
+                  vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
+                  finibus tortor fermentum.
+                </p>
+              </div>
+              <div
+                className={
+                  styled.home__container__services__container__down__item
+                }
+              >
+                <div
+                  className={
+                    styled.home__container__services__container__down__item__img
+                  }
+                >
+                  <img
+                    src="https://preview.colorlib.com/theme/course/images/mortarboard.svg"
+                    alt="globus"
+                  />
+                </div>
+                <h3>Graduate Diploma</h3>
+                <p>
+                  In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
+                  vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
+                  finibus tortor fermentum.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className={styled.home__container__events}>
